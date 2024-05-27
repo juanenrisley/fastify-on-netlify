@@ -1,0 +1,17 @@
+{
+  "name": "fastify-on-netlify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "build:functions": "netlify-lambda build functions --config ./webpack.config.netlify.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/aws-lambda": "4.1.0",
+    "fastify": "4.27.0"
+  }
+}
