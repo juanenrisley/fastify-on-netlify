@@ -1,11 +1,11 @@
 {
   "name": "fastify-on-netlify",
   "version": "1.0.0",
-  "description": "",
+  "description": "testing stuff",
   "main": "index.js",
   "scripts": {
-    "start": "node app",
-    "build:functions": "netlify functions:build --functions functions --src netlify/functions",
+    "start": "node .",
+    "build": "npx parcel build app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
