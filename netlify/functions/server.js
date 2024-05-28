@@ -1,4 +1,4 @@
 const awsLambdaFastify = require('@fastify/aws-lambda')
-const app = require('../../app');
+const app = require('../../');
 
 exports.handler = awsLambdaFastify(app);
