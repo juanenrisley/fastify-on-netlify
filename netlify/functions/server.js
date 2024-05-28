@@ -1,1 +1,4 @@
-export { handler } from '../../lambda.js'; // Change `lambda.js` path to your `lambda.js` path
+const awsLambdaFastify = require('@fastify/aws-lambda')
+const init = require('../../app');
+
+exports.handler = awsLambdaFastify(init());

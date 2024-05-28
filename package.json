@@ -13,6 +13,6 @@
   "dependencies": {
     "@fastify/aws-lambda": "4.1.0",
     "fastify": "4.27.0",
-    "netlify-cli": "17.23.8"
+    "serverless-http": "3.2.0"
   }
 }
