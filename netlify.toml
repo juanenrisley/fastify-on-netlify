@@ -4,7 +4,7 @@ command = "echo Building Functions"
 
 [functions]
 node_bundler = "esbuild"
-external_node_modules = ["fastify"]
+# external_node_modules = ["fastify"]
 
 [[redirects]]
 force = true
