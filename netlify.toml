@@ -2,10 +2,6 @@
 command = "echo Building Functions"
 # command = "npm run build"
 
-[functions]
-node_bundler = "esbuild"
-# external_node_modules = ["fastify"]
-
 [[redirects]]
 force = true
 from = "/*"
